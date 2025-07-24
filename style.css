@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color:rgb(173, 75, 248);
+}
+#card{
+    height: 600px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.921);
+    border: 3px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+video{
+    border: 3px ;
+    margin: 0px;
+    width: 100%;
+    height: 65%;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 17px;
+    
+  
+    object-position: center;
+}
+#card h5{
+    font-size: 20px;
+    color: rgb(26, 26, 255);
+    /* margin: 10px; */
+}
+#card button {
+    background-color: rgba(86, 151, 250, 0.885);
+    color: aliceblue;
+    font-weight: 700;
+     padding: 15px 35px;
+     /* font-size: 13px; */
+     border-radius: 30px;
+     border: none;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     cursor: pointer;
+}
+#card #cancel{
+    background-color:rgb(145, 145, 145) ;
+    color: black;
+    margin-right: 30px;
+}
+#congo{
+   margin: 20px;
+}
+#trip{
+    margin-bottom: 10px;
+}
+
+
