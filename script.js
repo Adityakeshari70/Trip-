@@ -8,7 +8,7 @@ confirm.addEventListener("click",function () {
     
 })
 cancel.addEventListener("click",function () {
-    CONGRATULATION.innerHTML = "Please Try To Convence"
+    CONGRATULATION.innerHTML = "Please Try To Convince"
     trip.innerHTML = "It's a last trip for you all"
     
 })
